@@ -1,0 +1,23 @@
+#' ---
+#' title: "Happy Git Test Drive"
+#' author: "ashley"
+#' date: "2023-03-03"
+#' output: github_document
+#' ---
+
+#+ r setup, include = FALSE, cache = FALSE
+knitr::opts_chunk$set(error = TRUE)
+
+
+
+#+ r wing-and-a-prayer, error = TRUE
+## your sketchy code goes here ;)
+
+
+# A single test sentence.
+
+
+#+ r
+plot(iris$Sepal.Length, iris$Petal.Length)
+
+
